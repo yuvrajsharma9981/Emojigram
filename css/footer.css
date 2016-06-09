@@ -1,0 +1,60 @@
+/* line 8, ../sass/footer.scss */
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 10%;
+  background-color:#fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 18, ../sass/footer.scss */
+.footer-item {
+  width: 20%;
+  padding: 15px 0 15px 0;
+}
+/* line 22, ../sass/footer.scss */
+.footer-item h1 {
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+/* line 28, ../sass/footer.scss */
+.footer-item li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: gray;
+  padding: 4px 0 4px 4px;
+}
+/* line 35, ../sass/footer.scss */
+.footer-item img {
+  max-height: 15px;
+  max-width: 15px;
+  padding: 0 4px 0 0;
+}
+
+/* line 42, ../sass/footer.scss */
+.copyright {
+  width: 80%;
+  padding: 15px 10% 15px 10%;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 50, ../sass/footer.scss */
+  .footer {
+    flex-direction: column;
+  }
+
+  /* line 54, ../sass/footer.scss */
+  .footer-item {
+    width: 100%;
+  }
+  /* line 57, ../sass/footer.scss */
+  .footer-item ul {
+    column-count: 2;
+    column-rule: 1px solid rgba(200, 200, 200, 0.5);
+  }
+}
